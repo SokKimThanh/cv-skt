@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "cv-skt"
+  "defaultProject": "cv-skt",
+  "cli": {
+    "analytics": "2a5e8ffd-56f4-4d43-bd18-13efb86bf7d9"
+  }
 }
