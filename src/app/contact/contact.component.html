@@ -1,8 +1,9 @@
-<div class="paragraph">
-    <h1 class="fullname">THANH KIM SOK</h1>
+<div class="paragraph" *ngIf="contact && contact.address">
+    <h1 class="fullname">{{ contact.firstname | uppercase }} {{ contact.lastname | uppercase }}</h1>
     <dl class="contact">
-        <dd>21 Street 5, Phuoc Binh Ward, District 9, Ho Chi Minh City</dd>
-        <dd>0924964226</dd>
-        <dd>Email: <a class="email" href="mailto: thanhsk1991@gmail.com">thanhsk1991@gmail.com</a></dd>
+        <dd>{{contact.address.street}}, {{contact.address.ward}}, {{contact.address.district}},
+            {{contact.address.city}}</dd>
+        <dd>{{contact.phonenumber}}</dd>
+        <dd>Email: <a class="email" href="mailto: thanhsk1991@gmail.com">{{contact.email}}</a></dd>
     </dl>
 </div>

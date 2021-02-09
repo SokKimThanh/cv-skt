@@ -13,6 +13,6 @@ export class ContactService {
     return of(CONTACTS);
   }
   getContact(id: number): Observable<Contact> {
-    return of(CONTACTS.filter(contact => contact.id = contact.id)[0]);
+    return of(CONTACTS.filter(contact => contact.id = id)[0]);
   }
 }
