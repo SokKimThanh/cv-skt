@@ -2,6 +2,7 @@ import { Contact } from './contact';
 
 export const CONTACTS: Contact[] = [
     {
+        id: 1,
         firstname: 'Thanh',
         lastname: 'Kim Sok',
         address: { street: '21 Street 5', ward: 'Phuoc Binh', district: '9', city: 'Ho Chi Minh City' },
