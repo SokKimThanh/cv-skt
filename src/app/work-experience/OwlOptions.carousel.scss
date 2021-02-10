@@ -1,51 +1,43 @@
-// .owl-theme .owl-nav.disabled + .owl-dots {
-//   margin-top: 0;
-//   margin-bottom: 30px;
-// }
-// .owl-theme .owl-dots {
-//   text-align: left;
-//   -webkit-tap-highlight-color: transparent;
-// }
-// .owl-theme .owl-dots .owl-dot span {
-//   height: 8px;
-//   width: 8px;
-//   margin-right: 20px;
-//   background: rgba(142, 144, 162, 1);
-// }
-// .owl-theme .owl-dots .owl-dot.active span,
-// .owl-theme .owl-dots .owl-dot:hover span {
-//   background: rgba(40, 43, 62, 1);
-// }
-// .owl-stage {
-//   // width: 5000px !important;
-//   box-sizing: border-box !important;
-//   margin: 0;
-//   padding: 0;
-// }
-// .owl-item {
-//   padding: 0 !important;
-//   margin-right: 0 !important;
-// }
-// // .owl-item.ng-trigger.ng-trigger-autoHeight.ng-star-inserted.active {
-// //   width: auto !important;
-// //   padding: 0 !important;
-// //   margin-right: 0 !important;
-// // }
-// // .owl-item.ng-trigger.ng-trigger-autoHeight.ng-star-inserted {
-// //   padding: 0 !important;
-// //   margin-right: 0 !important;
-// // }
-// .owl-carousel .owl-item img {
-//   width: 60px;
-//   height: 60px;
-// }
-// .owl-theme .owl-dots {
-//   display: inline-block !important;
-//   // background: red;
-// }
-
-// // @include tablet {
-// //     .owl-dots.disabled {
-// //         margin-top: 20px;
-// //     }
-// // }
+::ng-deep {
+  .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .owl-theme .owl-dots {
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  .owl-theme .owl-dots .owl-dot {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-right: 5px; */
+  }
+  .owl-theme .owl-dots .owl-dot span {
+    height: 54px;
+    width: 100%;
+    margin-right: 20px;
+    background: rgba(142, 144, 162, 0.5);
+    color: #1d824c;
+    font-size: 13pt;
+    text-transform: uppercase;
+    line-height: 22px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  .owl-theme .owl-dots .owl-dot.active span,
+  .owl-theme .owl-dots .owl-dot:hover span {
+    color: #1d824c;
+    background: linear-gradient(#fff, #fff),
+      linear-gradient(to right, #1d824c, #bc398a);
+    background-origin: padding-box, border-box;
+    background-repeat: no-repeat; /* this is important */
+    border: 3px solid transparent;
+  }
+}
