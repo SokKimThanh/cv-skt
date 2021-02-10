@@ -8,6 +8,7 @@ import { Tool } from './tool';
 
 
 export class WorkExperience {
+    id!: string;
     name?: string | undefined;
     fromdate?: string | undefined;
     todate?: string | undefined;

@@ -2,10 +2,13 @@ import { Address } from './address';
 import { WorkExperience } from './workexperience';
 
 
-export const TECHNOLOGIES: WorkExperience[] = [
+export const WORKEXPERIENCES: WorkExperience[] = [
     {
-        name: 'Kinh nghiệm làm việc của sok kim thanh', workexperience: [
+        id: '1',
+        name: 'Kinh nghiệm làm việc của sok kim thanh',
+        workexperience: [
             {
+                id: '1',
                 name: 'kinh nghiệm đi on-site sml ở manulife',
                 fromdate: 'DECEMBER, 2020',
                 todate: 'FEBRUARY, 2021',
