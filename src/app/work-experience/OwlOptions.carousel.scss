@@ -1,0 +1,51 @@
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.owl-theme .owl-dots {
+  text-align: left;
+  -webkit-tap-highlight-color: transparent;
+}
+.owl-theme .owl-dots .owl-dot span {
+  height: 8px;
+  width: 8px;
+  margin-right: 20px;
+  background: rgba(142, 144, 162, 1);
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: rgba(40, 43, 62, 1);
+}
+.owl-stage {
+  // width: 5000px !important;
+  box-sizing: border-box !important;
+  margin: 0;
+  padding: 0;
+}
+.owl-item {
+  padding: 0 !important;
+  margin-right: 0 !important;
+}
+  .owl-item.ng-trigger.ng-trigger-autoHeight.ng-star-inserted.active {
+    width: auto !important;
+    padding: 0 !important;
+    margin-right: 0 !important;
+  }
+  .owl-item.ng-trigger.ng-trigger-autoHeight.ng-star-inserted {
+    padding: 0 !important;
+    margin-right: 0 !important;
+  }
+  .owl-carousel .owl-item img {
+    width: 60px;
+    height: 60px;
+  }
+.owl-theme .owl-dots {
+  display: inline-block !important;
+  // background: red;
+}
+
+// @include tablet {
+//     .owl-dots.disabled {
+//         margin-top: 20px;
+//     }
+// }

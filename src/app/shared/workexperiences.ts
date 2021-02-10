@@ -18,11 +18,10 @@ export const WORKEXPERIENCES: WorkExperience[] = [
                         name: 'Manulife Plaza Building, 75 Hoang Van Thai, Tan Phu Ward, Dist. HCM City (on-site)'
                     }
                 ],
-                role: [{ title: 'Front-End' }],
+                role: [{ name: 'Front-End' }],
                 teamsize: 5,
                 task: [
-                    { name: 'Standing daily meeting' },
-                    { name: 'Catchup meeting' },
+                    { name: 'Standing daily meeting and Catchup meeting' },
                 ],
                 achievement: [
                     {
@@ -45,7 +44,7 @@ export const WORKEXPERIENCES: WorkExperience[] = [
                 ],
                 technology: [
                     { name: 'TypeScript' },
-                    { name: ' RxJS' },
+                    { name: 'RxJS' },
                     { name: 'Angular NG-CLI' },
                     { name: 'HTML' },
                     { name: 'SCSS' },
@@ -61,7 +60,7 @@ export const WORKEXPERIENCES: WorkExperience[] = [
                 address: [
                     { name: 'PluralSight.com' },
                 ],
-                role: [{ title: 'Front-End' }],
+                role: [{ name: 'Front-End' }],
                 teamsize: 1,
                 task: [
                     { name: 'Watching video and learning by doing' },
@@ -89,15 +88,21 @@ export const WORKEXPERIENCES: WorkExperience[] = [
                 address: [
                     { name: 'NETSPACE, DISTRICT 3, MARKETING DEPARTMENT, FULL-TIME' },
                 ],
-                role: [{ title: 'Front-End' }],
+                role: [{ name: 'Front-End' }],
                 teamsize: 4,
                 task: [
                     { name: 'daily meetings, maintaining code, daily report' },
                 ],
                 achievement: [
                     {
-                        name: 'Experience programing with pure HTML projects. Experience programing with Data visualization. Experience edit image with Photoshop and AI'
+                        name: 'Experience programing with pure HTML projects.'
                     },
+                    {
+                        name: 'Experience programing with Data visualization.'
+                    },
+                    {
+                        name: 'Experience edit image with Photoshop and AI.'
+                    }
                 ],
                 project: [
                     { name: `huongnghiep.com.vn, netspace.com.vn, Saigon Chef` }
@@ -117,7 +122,7 @@ export const WORKEXPERIENCES: WorkExperience[] = [
                 address: [
                     { name: 'WAHSIS CO, LTD DISTRICT 7, SOFTWARE DEPARTMENT, FULL-TIME' },
                 ],
-                role: [{ title: 'Front-End' }],
+                role: [{ name: 'Front-End' }],
                 teamsize: 5,
                 task: [
                     { name: 'Creating new, maintaining feature, meeting weekend' },
@@ -145,7 +150,7 @@ export const WORKEXPERIENCES: WorkExperience[] = [
                 address: [
                     { name: 'INTERN STUDENT, ISC QUANG TRUNG, DISTRICT 12 HCMC, LAB 1, FULL-TIME' },
                 ],
-                role: [{ title: 'Front-End' }],
+                role: [{ name: 'Front-End' }],
                 teamsize: 3,
                 task: [
                     { name: 'Assisting member SQL design table, maintaining in project, daily meeting' },
