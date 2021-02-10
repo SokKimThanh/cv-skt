@@ -26,6 +26,9 @@
   color: rgb(89, 89, 89);
   font-size: 11pt;
   line-height: 18px;
+  dd {
+    margin-inline-start: 0;
+  }
 }
 .email {
   color: rgb(44, 92, 133);
