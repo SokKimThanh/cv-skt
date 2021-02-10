@@ -1,28 +1,35 @@
 <div class="container">
     <h3 class="title-section">WORK EXPERIENCE</h3>
-    <h4 class="title-time">DECEMBER, 2020 – FEBRUARY, 2021</h4>
-    <ul class="title-address">
-        <li>
-            <h5>INNOTECH, 33 Ba Vi, Ward 4, Tan Binh, Ho Chi Minh City</h5>
-        </li>
-        <li>
-            <h5>Manulife Plaza Building, 75 Hoang Van Thai, Tan Phu Ward, Dist. HCM City (on-site)</h5>
-        </li>
-    </ul>
-    <ul class="list-item">
-        <li class="item"><b class="bold-item">Role: </b><span>Front-End</span></li>
-        <li class="item"><b class="bold-item">Team size: </b><span>5</span></li>
-        <li class="item"><b class="bold-item">Tasks: </b><span>Standing daily meeting, Catchup
-                meeting</span></li>
-        <li class="item"><b class="bold-item">Achievements: </b><span> Experience basic with SCSS
-                Styling website, Flex Layout, Angular
-                Material, Ng-x-owl-carousel, picture upload styling custom component</span></li>
-        <li class="item"><b class="bold-item">Technologies used: </b><span> TypeScript, RxJS, Angular,
-                ng CLI, HTML, SCSS, Flex Layout,
-                Angular
-                Material</span></li>
-        <li class="item"><b class="bold-item">Tools used: </b><span> VS Code, Source Tree, JIRA</span>
-        </li>
-    </ul>
+    <owl-carousel-o [options]="customOptions">
+        <ng-container *ngFor="let slide of slidesStore">
+            <ng-template carouselSlide [id]="slide.id">
+                <div>
+                    <h4 class="title-time">DECEMBER, 2020 – FEBRUARY, 2021</h4>
+                    <ul class="title-address">
+                        <li>
+                            <h5>INNOTECH, 33 Ba Vi, Ward 4, Tan Binh, Ho Chi Minh City</h5>
+                        </li>
+                        <li>
+                            <h5>Manulife Plaza Building, 75 Hoang Van Thai, Tan Phu Ward, Dist. HCM City (on-site)</h5>
+                        </li>
+                    </ul>
+                    <ul class="list-item">
+                        <li class="item"><b class="bold-item">Role: </b><span>Front-End</span></li>
+                        <li class="item"><b class="bold-item">Team size: </b><span>5</span></li>
+                        <li class="item"><b class="bold-item">Tasks: </b><span>Standing daily meeting, Catchup
+                                meeting</span></li>
+                        <li class="item"><b class="bold-item">Achievements: </b><span> Experience basic with SCSS
+                                Styling website, Flex Layout, Angular
+                                Material, Ng-x-owl-carousel, picture upload styling custom component</span></li>
+                        <li class="item"><b class="bold-item">Technologies used: </b><span> TypeScript, RxJS, Angular,
+                                ng CLI, HTML, SCSS, Flex Layout,
+                                Angular
+                                Material</span></li>
+                        <li class="item"><b class="bold-item">Tools used: </b><span> VS Code, Source Tree, JIRA</span>
+                        </li>
+                    </ul>
+                </div>
+            </ng-template>
+        </ng-container>
+    </owl-carousel-o>
 </div>
-<app-carousel-holder></app-carousel-holder>

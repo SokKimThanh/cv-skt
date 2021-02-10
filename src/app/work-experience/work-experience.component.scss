@@ -1,6 +1,6 @@
 .container {
   text-align: left;
-  height: 750px;
+  height: 350px;
   font-family: WordVisi_MSFontService, Calibri, Calibri_EmbeddedFont,
     Calibri_MSFontService, sans-serif;
 }
@@ -31,7 +31,15 @@
   list-style-type: none;
   font-size: 12pt;
   line-height: 19px;
+  .item::marker {
+    list-style: none;
+  }
 }
 .bold-item {
   font-weight: bold;
+}
+.mat-card {
+  border: none;
+  width: auto;
+  padding: 0;
 }

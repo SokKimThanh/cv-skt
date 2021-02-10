@@ -38,7 +38,7 @@ export class CarouselHolderComponent implements OnInit {
   }
   ngOnInit(): void {
     this.workExperienceService.getWorkExperiences().subscribe(data => {
-      this.slidesStore = data;
+      data.map(experience => this.slidesStore = experience.workexperience);
     });
   }
 }
