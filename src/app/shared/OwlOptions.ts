@@ -8,7 +8,7 @@ export const CUSTOMOPTIONS: OwlOptions[] = [{
     pullDrag: true,
     dots: true,
     navSpeed: 700,
-    navText: ['', ''],
+    navText: ['<i class="fa-chevron-left"></i>', '<i class="fa-chevron-right></i>"'],
     responsiveRefreshRate: 185,
     mergeFit: true,
     autoWidth: true,
@@ -42,4 +42,4 @@ export const CUSTOMOPTIONS: OwlOptions[] = [{
         }
     },
     nav: false
-}, ];
+}];
