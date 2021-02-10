@@ -1,3 +1,37 @@
 .container {
   text-align: left;
+  height: 750px;
+  font-family: WordVisi_MSFontService, Calibri, Calibri_EmbeddedFont,
+    Calibri_MSFontService, sans-serif;
+}
+.title-section {
+  color: rgb(38, 38, 38);
+  font-size: 14pt;
+  text-transform: uppercase;
+  line-height: 21px;
+  font-weight: bold;
+}
+.title-time {
+  color: rgb(29, 130, 76);
+  font-size: 13pt;
+  text-transform: uppercase;
+  line-height: 22px;
+  font-weight: bold;
+}
+.title-address {
+  color: rgb(89, 89, 89);
+  font-size: 11pt;
+  font-variant: small-caps;
+  line-height: 18px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+.list-item {
+  color: rgb(89, 89, 89);
+  list-style-type: none;
+  font-size: 12pt;
+  line-height: 19px;
+}
+.bold-item {
+  font-weight: bold;
 }
