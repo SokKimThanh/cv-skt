@@ -7,7 +7,7 @@ import { Contact } from '../shared/contact';
   templateUrl: './contact.component.html',
   styleUrls: [
     './contact.component.scss',
-    // './contact.component.mobile.scss'
+    './contact.component.mobile.scss'
   ]
 })
 export class ContactComponent implements OnInit {

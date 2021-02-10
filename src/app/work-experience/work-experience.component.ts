@@ -9,7 +9,9 @@ import { WorkExperience } from '../shared/workexperience';
   templateUrl: './work-experience.component.html',
   styleUrls: [
     './work-experience.component.scss',
-    './OwlOptions.carousel.scss'
+    './work-experience.component.mobile.scss',
+    './OwlOptions.carousel.scss',
+    './OwlOptions.carousel.mobile.scss'
   ]
 })
 export class WorkExperienceComponent implements OnInit {

@@ -1,8 +1,9 @@
-@media screen and (min-width: 425px) {
+@media screen and (max-width: 425px) {
   ::ng-deep {
     .owl-theme .owl-nav.disabled + .owl-dots {
       margin-top: 0;
       margin-bottom: 30px;
+      overflow: auto;
     }
     .owl-theme .owl-dots {
       -webkit-tap-highlight-color: transparent;

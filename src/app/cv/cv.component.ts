@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './cv.component.html',
   styleUrls: [
     './cv.component.scss',
-    // './cv.component.mobile.scss'
+    './cv.component.mobile.scss'
   ]
 })
 export class CvComponent implements OnInit {
