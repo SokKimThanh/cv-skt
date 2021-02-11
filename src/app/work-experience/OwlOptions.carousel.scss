@@ -3,6 +3,8 @@
     .owl-theme .owl-nav.disabled + .owl-dots {
       margin-top: 0;
       margin-bottom: 30px;
+      overflow: auto;
+      padding: 0;
     }
     .owl-theme .owl-dots {
       -webkit-tap-highlight-color: transparent;

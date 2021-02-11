@@ -1,9 +1,8 @@
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 425px) {
   .container {
     text-align: left;
     height: 350px;
-    font-family: WordVisi_MSFontService, Calibri, Calibri_EmbeddedFont,
-      Calibri_MSFontService, sans-serif;
+    font-family: Calibri, "Segoe UI", Tahoma, Verdana, Sans-Serif;
   }
   .title-section {
     color: rgb(38, 38, 38);
@@ -11,6 +10,7 @@
     text-transform: uppercase;
     line-height: 21px;
     font-weight: bold;
+    font-family: Georgia, "Segoe UI", Tahoma, Verdana, Sans-Serif;
   }
   .title-time {
     color: rgb(29, 130, 76);
