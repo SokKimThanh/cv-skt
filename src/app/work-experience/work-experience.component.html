@@ -17,25 +17,27 @@
                     </ul>
                     <ul class="list-item">
                         <li class="item"><b class="bold-item">Role: </b>
-                            <span *ngFor="let role of slide.role">{{role.name}}</span>
+                            <span *ngFor="let role of slide.role">{{role.name | titlecase }}</span>
                         </li>
                         <li class="item"><b class="bold-item">Team size: </b>
                             <span>{{slide.teamsize}}</span>
                         </li>
                         <li class="item"><b class="bold-item">Tasks: </b>
-                            <span *ngFor="let task of slide.task">{{task.name}}</span>
+                            <span *ngFor="let task of slide.task">{{task.name | titlecase }}</span>
                         </li>
                         <li class="item">
                             <div>
                                 <b class="bold-item">Achievements: </b>
-                                <span *ngFor="let achievement of slide.achievement"> {{achievement.name}}</span>
+                                <span *ngFor="let achievement of slide.achievement"> {{achievement.name |
+                                    titlecase }}</span>
                             </div>
                         </li>
                         <li class="item"> <b class="bold-item">Technologies used: </b>
-                            <span *ngFor="let technology of slide.technology"> {{technology.name}}</span>
+                            <span *ngFor="let technology of slide.technology"> {{technology.name |
+                                titlecase }}</span>
                         </li>
                         <li class="item"><b class="bold-item">Tools used:</b>
-                            <span *ngFor="let tool of slide.tool">{{tool.name}}</span>
+                            <span *ngFor="let tool of slide.tool">{{tool.name | titlecase }}</span>
                         </li>
                     </ul>
                 </div>
