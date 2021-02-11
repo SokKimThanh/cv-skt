@@ -13,9 +13,9 @@ export const WORKEXPERIENCES: WorkExperience[] = [
                 fromdate: 'DECEMBER, 2020',
                 todate: 'FEBRUARY, 2021',
                 address: [
-                    { name: 'INNOTECH, 33 Ba Vi, Ward 4, Tan Binh, Ho Chi Minh City' },
+                    { name: 'INNOTECH, 33 BA VI, WARD 4, TAN BINH, HO CHI MINH CITY' },
                     {
-                        name: 'Manulife Plaza Building, 75 Hoang Van Thai, Tan Phu Ward, Dist. HCM City (on-site)'
+                        name: 'MANULIFE PLAZA BUILDING, 75 HOANG VAN THAI, TAN PHU WARD, DIST. HCM CITY (ON-SITE)'
                     }
                 ],
                 role: [{ name: 'Front-End' }],

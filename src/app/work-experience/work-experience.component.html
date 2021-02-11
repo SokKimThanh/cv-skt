@@ -1,5 +1,5 @@
 <div class="container" *ngIf="slidesStore">
-    <h3 class="title-section">WORK EXPERIENCE</h3>
+    <h3 class="title-section">{{'WORK EXPERIENCE'| uppercase}}</h3>
     <owl-carousel-o [options]="customOptions">
         <ng-container *ngFor="let slide of slidesStore">
             <ng-template carouselSlide [id]="slide.id" [dotContent]="slide.fromdate!">
@@ -7,12 +7,12 @@
                     <h4 class="title-time">{{slide.fromdate}} – {{slide.todate}}</h4>
                     <ul class="title-address" *ngIf="slide.address!.length>1">
                         <li *ngFor="let address of slide.address">
-                            <h5>{{address.name}}</h5>
+                            <h5>{{address.name | uppercase}}</h5>
                         </li>
                     </ul>
                     <ul class="title-address-none" *ngIf="slide.address!.length===1">
                         <li *ngFor="let address of slide.address">
-                            <h5>{{address.name}}</h5>
+                            <h5>{{address.name | uppercase}}</h5>
                         </li>
                     </ul>
                     <ul class="list-item">
