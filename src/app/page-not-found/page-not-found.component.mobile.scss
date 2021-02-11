@@ -1,4 +1,4 @@
-@media screen and (min-width: 425px) {
+@media screen and (max-width: 425px) {
   .mainbox {
     background: linear-gradient(to top, #95c2de, #a395de, #95deb1);
     margin: auto;
@@ -8,12 +8,13 @@
     flex-flow: column;
     align-items: center;
     justify-content: center;
+    padding: 10px;
   }
 
   .err {
     color: #ffffff;
     font-family: "Nunito Sans", sans-serif;
-    font-size: 11rem;
+    font-size: 7rem;
     text-align: center;
   }
   .mat-icon {
@@ -23,15 +24,14 @@
     height: auto;
     width: auto;
   }
-
   .fa-spin {
-    font-size: 8.5rem;
+    font-size: 5.5rem;
   }
 
   .msg {
     text-align: center;
     font-family: "Nunito Sans", sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     width: 100%;
   }
 
