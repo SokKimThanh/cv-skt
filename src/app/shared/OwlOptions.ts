@@ -2,7 +2,7 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 
 export const CUSTOMOPTIONS: OwlOptions[] = [{
     /* product package slide*/
-    loop: true,
+    loop: false,
     mouseDrag: true,
     touchDrag: true,
     pullDrag: true,

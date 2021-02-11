@@ -5,14 +5,14 @@
             <ng-template carouselSlide [id]="slide.id" [dotContent]="slide.fromdate!">
                 <div>
                     <h4 class="title-time">{{slide.fromdate}} – {{slide.todate}}</h4>
-                    <ul class="title-address" *ngIf="slide.address!.length>1">
+                    <ul class="bullet" *ngIf="slide.address!.length>1">
                         <li *ngFor="let address of slide.address">
-                            <h5>{{address.name | uppercase}}</h5>
+                            <h5 class="title-address">{{address.name | uppercase}}</h5>
                         </li>
                     </ul>
-                    <ul class="title-address-none" *ngIf="slide.address!.length===1">
+                    <ul class="no-bullet" *ngIf="slide.address!.length===1">
                         <li *ngFor="let address of slide.address">
-                            <h5>{{address.name | uppercase}}</h5>
+                            <h5 class="title-address-none">{{address.name | uppercase}}</h5>
                         </li>
                     </ul>
                     <ul class="list-item">

@@ -25,8 +25,7 @@
     font-variant: small-caps;
     line-height: 18px;
     font-weight: bold;
-    padding-left: 1px;
-    margin-left: 16px;
+    font-family: Calibri, "Segoe UI", Tahoma, Verdana, Sans-Serif;
   }
   .title-address-none {
     color: rgb(89, 89, 89);
@@ -34,6 +33,13 @@
     font-variant: small-caps;
     line-height: 18px;
     font-weight: bold;
+    font-family: Calibri, "Segoe UI", Tahoma, Verdana, Sans-Serif;
+  }
+  .bullet {
+    padding-left: 1px;
+    margin-left: 16px;
+  }
+  .no-bullet {
     padding-left: 1px;
     margin-left: 0;
     list-style-type: none;
