@@ -1,9 +1,9 @@
 <div class="paragraph" *ngIf="contact && contact.address">
     <h1 class="fullname">{{ contact.firstname | uppercase }} {{ contact.lastname | uppercase }}</h1>
-    <dl class="contact">
-        <dd>{{contact.address.street}}, {{contact.address.ward}}, {{contact.address.district}},
-            {{contact.address.city}}</dd>
-        <dd>{{contact.phonenumber}}</dd>
-        <dd>Email: <a class="email" href="mailto: thanhsk1991@gmail.com">{{contact.email}}</a></dd>
-    </dl>
+    <ul class="contact">
+        <li>{{contact.address.street}}, {{contact.address.ward}}, {{contact.address.district}},
+            {{contact.address.city}}</li>
+        <li>{{contact.phonenumber}}</li>
+        <li>Email: <a class="email" href="mailto: thanhsk1991@gmail.com">{{contact.email}}</a></li>
+    </ul>
 </div>
