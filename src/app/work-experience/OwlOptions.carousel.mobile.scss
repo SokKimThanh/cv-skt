@@ -33,6 +33,7 @@
       font-weight: bold;
       border-radius: 5px;
       padding: 5px;
+      transition: all 0.3s ease 0s;
     }
     .owl-theme .owl-dots .owl-dot.active span,
     .owl-theme .owl-dots .owl-dot:hover span {
@@ -42,6 +43,17 @@
       background-origin: padding-box, border-box;
       background-repeat: no-repeat; /* this is important */
       border: 3px solid transparent;
+      transition: background 0.3s ease 0s;
     }
+    // .iZPjjE::before {
+    //   border-radius: inherit;
+    //   content: "";
+    //   display: block;
+    //   width: 9px;
+    //   height: 26px;
+    //   transition: all 0.3s ease 0s;
+    //   background: white;
+    //   opacity: 1;
+    // }
   }
 }
