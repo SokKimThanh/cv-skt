@@ -1,5 +1,8 @@
 @media screen and (min-width: 425px) {
   ::ng-deep {
+    .owl-item {
+      width: 410px !important;
+    }
     .owl-theme .owl-nav.disabled + .owl-dots {
       margin-top: 0;
       margin-bottom: 30px;

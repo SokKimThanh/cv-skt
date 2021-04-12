@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
-import { ConfigslideService } from '../services/configslide.service';
+import { ConfigslideService } from '../carousel-holder/configslide.service';
 import { WorkExperienceService } from '../services/work-experience.service';
 import { WorkExperience } from '../shared/workexperience';
 
@@ -12,7 +12,8 @@ import { WorkExperience } from '../shared/workexperience';
     './work-experience.component.mobile.scss',
     './OwlOptions.carousel.scss',
     './OwlOptions.carousel.mobile.scss'
-  ]
+  ],
+  // changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class WorkExperienceComponent implements OnInit {
   customOptions!: OwlOptions;

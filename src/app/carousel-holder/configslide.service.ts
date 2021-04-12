@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
 import { Observable, of } from 'rxjs';
-import { CUSTOMOPTIONS } from '../shared/OwlOptions';
+import { CUSTOMOPTIONS } from './OwlOptions';
 
 @Injectable({
   providedIn: 'root'

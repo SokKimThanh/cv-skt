@@ -8,7 +8,7 @@ import { CarouselHolderComponent } from '../carousel-holder/carousel-holder.comp
 import { ContactComponent } from '../contact/contact.component';
 import { WorkExperienceComponent } from '../work-experience/work-experience.component';
 import { CvComponent } from './cv.component';
-import { MaterialModule } from '../material/material.module';
+import { MaterialModule } from '../shared/material/material.module';
 import { CvAppComponent } from './cvapp/cvapp.component';
 import { FooterComponent } from '../footer/footer.component';
 import { HeaderComponent } from '../header/header.component';

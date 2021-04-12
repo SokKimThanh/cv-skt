@@ -17,6 +17,7 @@ export class CarouselHolderComponent implements OnInit {
     dots: false,
     navSpeed: 700,
     navText: ['', ''],
+    autoWidth: true,
     responsive: {
       0: {
         items: 1
