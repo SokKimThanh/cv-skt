@@ -1,0 +1,14 @@
+<mat-sidenav-container class="sidenav-container" autosize>
+    <mat-sidenav #sidenav class="sidenav-sidenav mat-elevation-z10" [mode]="isScreenSmall ? 'over': 'side'"
+        [opened]='!isScreenSmall'>
+        <mat-toolbar color="primary">
+            SOK KIM THANH CV
+        </mat-toolbar>
+    </mat-sidenav>
+
+    <div class="sidenav-sidenav-content">
+        <app-toolbar class="app-toolbar-menu" (toggleSideNav)="sidenav.toggle()"></app-toolbar>
+        <router-outlet></router-outlet>
+    </div>
+
+</mat-sidenav-container>

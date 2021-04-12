@@ -1,0 +1,14 @@
+.sidenav-toggle {
+  display: none;
+  height: 56px;
+  @media (max-width: 720px) {
+    display: flex;
+  }
+  mat-icon {
+    height: 56px;
+    width: 56px;
+    line-height: 56px;
+    font-size: 30px;
+    color: white;
+  }
+}
